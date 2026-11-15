@@ -1,0 +1,50 @@
+[
+  {
+    "creative_id": "CRT-2026-0001",
+    "name": "Cloud Migration ROI Calculator",
+    "format": "Banner",
+    "message_theme": "Cost Savings",
+    "destination_url": "/tools/cloud-roi",
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "creative_id": "CRT-2026-0002",
+    "name": "Automated Compliance Whitepaper",
+    "format": "Whitepaper",
+    "message_theme": "Risk & Governance",
+    "destination_url": "/resources/compliance-guide",
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "creative_id": "CRT-2026-0003",
+    "name": "Zero Trust Demo Video",
+    "format": "Video",
+    "message_theme": "Cybersecurity",
+    "destination_url": "/demo/zero-trust",
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "creative_id": "CRT-2026-0004",
+    "name": "Fintech Scale Case Study",
+    "format": "Case Study",
+    "message_theme": "Customer Proof",
+    "destination_url": "/customers/fintech-scale",
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "creative_id": "CRT-2026-0005",
+    "name": "Next-Gen Analytics Webinar Deck",
+    "format": "Webinar Deck",
+    "message_theme": "Product Innovation",
+    "destination_url": "/events/analytics-future",
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "creative_id": "CRT-2026-0006",
+    "name": "High-Intent Search Ad Headline",
+    "format": "Search Ad",
+    "message_theme": "Feature Comparison",
+    "destination_url": "/compare/enterprise-hub",
+    "created_at": "2026-01-01T00:00:00Z"
+  }
+]

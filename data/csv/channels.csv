@@ -1,0 +1,8 @@
+channel_id,name,category,is_paid,cost_model
+"CHN-001","Google Paid Search","Paid Search","1","CPC"
+"CHN-002","LinkedIn Sponsored Content","Paid Social","1","CPC"
+"CHN-003","Organic Search (SEO)","Organic Search","0","None"
+"CHN-004","Nurture & Outbound Email","Email Marketing","0","None"
+"CHN-005","Programmatic Display & ABM","Display Ads","1","CPM"
+"CHN-006","Industry Summits & Field Events","Events & Field","1","Fixed"
+"CHN-007","Direct Traffic & Referral","Direct / Referral","0","None"

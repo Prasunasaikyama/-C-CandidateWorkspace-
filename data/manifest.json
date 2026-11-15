@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-11-15T10:22:08.790Z",
+  "environment": "Windows CandidateWorkspace",
+  "tables": {
+    "channels": {
+      "row_count": 7,
+      "json_file": "channels.json",
+      "json_sha256": "abaf78ef910ca27afe701f163d265e52764045c970761b668f207e99b2864c9f",
+      "csv_file": "channels.csv",
+      "csv_sha256": "e721b83e10b3007e162fe76f9f4cf1c77c75a46db19a9e088917619608ea181b"
+    },
+    "audiences": {
+      "row_count": 5,
+      "json_file": "audiences.json",
+      "json_sha256": "dc94b1ca2a432caf448fa60570e3d21de15b0c9304ef02052935248d1f97c889",
+      "csv_file": "audiences.csv",
+      "csv_sha256": "ce315e836ed0aa720d197122a2f304eb98e758404f675a0da81e286edcec7210"
+    },
+    "creatives": {
+      "row_count": 6,
+      "json_file": "creatives.json",
+      "json_sha256": "daea773146e9916512c0daca6f1c5e1b04c498eddc185a69dc339289dd17e594",
+      "csv_file": "creatives.csv",
+      "csv_sha256": "1a972c08c7fdea36fbcd7ff0381e02d8c0d719a75e9d6d84503e5498e6ede850"
+    },
+    "campaigns": {
+      "row_count": 50,
+      "json_file": "campaigns.json",
+      "json_sha256": "a15d3657ca552d1999dd87971ef6cf43beed973290d62b6b56a369fcf6417898",
+      "csv_file": "campaigns.csv",
+      "csv_sha256": "3221392c37db18e1cc094ddbc04d9b3d07df967513701b12b868ecf43daf0874"
+    },
+    "contacts": {
+      "row_count": 5000,
+      "json_file": "contacts.json",
+      "json_sha256": "45bc72c8d282df573a9ff824cfdbf2bb84d6e29bae07ce9e6ec89ef1d1bf5a9c",
+      "csv_file": "contacts.csv",
+      "csv_sha256": "84c5e7b6ec2b121984cde887d9dbbe5c0ce9098b2a0d4ad52a417c8de46793aa"
+    },
+    "web_sessions": {
+      "row_count": 16875,
+      "json_file": "web_sessions.json",
+      "json_sha256": "fb1dbf1b2ebd96c3682b4a4d1e813e244dae338a438810313ce9ecaba5c7d835",
+      "csv_file": "web_sessions.csv",
+      "csv_sha256": "b39c7fac8ab23a6e9b52ee1c17355a4afbd2576c34de92aa72662e6a09c1de38"
+    },
+    "touchpoints": {
+      "row_count": 20067,
+      "json_file": "touchpoints.json",
+      "json_sha256": "d63e527424a4475a1268b3e95a93800684f934d9bc0aec51ccbdfc41ca39959a",
+      "csv_file": "touchpoints.csv",
+      "csv_sha256": "fe85e0937769d7a52038bb7d0990b91cc8db0ae954e5f025c9dd136e2fba949c"
+    },
+    "leads": {
+      "row_count": 1000,
+      "json_file": "leads.json",
+      "json_sha256": "eea796e582915f71873a342de57163192379a7726acb9c8e74cdb1299d048fa9",
+      "csv_file": "leads.csv",
+      "csv_sha256": "05b93e9e61cf64f7adcc024524515355c10938276f69851150dd2c1bd50b42e7"
+    },
+    "opportunities": {
+      "row_count": 1000,
+      "json_file": "opportunities.json",
+      "json_sha256": "4de01a99330aa2f60010349a235497df50e5485e9aef1e5af6c61a8782945320",
+      "csv_file": "opportunities.csv",
+      "csv_sha256": "b512ccd2e52ba136926184edff3f2b748a6d1f5de07f69691b0384c680776f37"
+    },
+    "orders": {
+      "row_count": 444,
+      "json_file": "orders.json",
+      "json_sha256": "16e6aadc0cd46bd993a858f0310141a2da9f28dc0df0de0dba4f48541e046678",
+      "csv_file": "orders.csv",
+      "csv_sha256": "f3ca420c1d080028bdac44c3013a0356343e5c1313c2f18c8b9a153c05bd4717"
+    },
+    "cost_records": {
+      "row_count": 66,
+      "json_file": "cost_records.json",
+      "json_sha256": "d8c7760822c1e54b8a7fc259c9147aa1c280ed0078ae47e4081d867028678c6d",
+      "csv_file": "cost_records.csv",
+      "csv_sha256": "0ac72182e5ac737700a3f6b6933ce62c4c2c6214491e85276734ab1af5ac4f0a"
+    },
+    "attribution_results": {
+      "row_count": 11485,
+      "json_file": "attribution_results.json",
+      "json_sha256": "df60798c1483c22121eca36923809be980f6c0149aa5119685606e87e667991a",
+      "csv_file": "attribution_results.csv",
+      "csv_sha256": "47cdb132bbfc0597a146b13b01fd98b86d7044a4350e9165a4a8f1421d01b333"
+    },
+    "identity_bridge": {
+      "row_count": 16870,
+      "json_file": "identity_bridge.json",
+      "json_sha256": "caad0c52ac3f8d15d8dfbeb40fad498c2eb962b5a2e602973b58efb1b73f9b0e",
+      "csv_file": "identity_bridge.csv",
+      "csv_sha256": "3245f0d0e95bca2488358b1559a930f0b33f43d861846d9766b5dd7714be5737"
+    },
+    "ground_truth_anomalies": {
+      "row_count": 25,
+      "json_file": "ground_truth_anomalies.json",
+      "json_sha256": "51b38dc16aa70c6c19ab287cd4f6894842acd049f31e1537efbb295c2ad46ee8",
+      "csv_file": "ground_truth_anomalies.csv",
+      "csv_sha256": "fbe97140ffc9e8e34a1111089946f2c7467dda9f849d2c86682a2b82d6043299"
+    }
+  }
+}

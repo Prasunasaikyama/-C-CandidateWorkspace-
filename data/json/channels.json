@@ -1,0 +1,51 @@
+[
+  {
+    "channel_id": "CHN-001",
+    "name": "Google Paid Search",
+    "category": "Paid Search",
+    "is_paid": 1,
+    "cost_model": "CPC"
+  },
+  {
+    "channel_id": "CHN-002",
+    "name": "LinkedIn Sponsored Content",
+    "category": "Paid Social",
+    "is_paid": 1,
+    "cost_model": "CPC"
+  },
+  {
+    "channel_id": "CHN-003",
+    "name": "Organic Search (SEO)",
+    "category": "Organic Search",
+    "is_paid": 0,
+    "cost_model": "None"
+  },
+  {
+    "channel_id": "CHN-004",
+    "name": "Nurture & Outbound Email",
+    "category": "Email Marketing",
+    "is_paid": 0,
+    "cost_model": "None"
+  },
+  {
+    "channel_id": "CHN-005",
+    "name": "Programmatic Display & ABM",
+    "category": "Display Ads",
+    "is_paid": 1,
+    "cost_model": "CPM"
+  },
+  {
+    "channel_id": "CHN-006",
+    "name": "Industry Summits & Field Events",
+    "category": "Events & Field",
+    "is_paid": 1,
+    "cost_model": "Fixed"
+  },
+  {
+    "channel_id": "CHN-007",
+    "name": "Direct Traffic & Referral",
+    "category": "Direct / Referral",
+    "is_paid": 0,
+    "cost_model": "None"
+  }
+]

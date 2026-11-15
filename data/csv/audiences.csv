@@ -1,0 +1,6 @@
+audience_id,name,segment,target_industry,estimated_size,created_at
+"AUD-2026-0001","Enterprise IT Leaders","Enterprise (1000+)","Information Technology","45000","2026-01-01T00:00:00Z"
+"AUD-2026-0002","Mid-Market Marketing VPs","Mid-Market (250-999)","Software & SaaS","32000","2026-01-01T00:00:00Z"
+"AUD-2026-0003","Fintech Security Officers","Financial Services","Banking & Fintech","18000","2026-01-01T00:00:00Z"
+"AUD-2026-0004","Healthcare Operations Execs","Healthcare Systems","Healthcare","28000","2026-01-01T00:00:00Z"
+"AUD-2026-0005","Retail Omnichannel Directors","Retail & eCommerce","Consumer Goods","24000","2026-01-01T00:00:00Z"

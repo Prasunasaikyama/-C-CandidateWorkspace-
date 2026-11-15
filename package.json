@@ -1,0 +1,31 @@
+{
+  "name": "enterprise-multi-touch-attribution",
+  "version": "1.0.0",
+  "description": "Enterprise 3-Tier Multi-Touch Attribution and ROI Analytics Platform",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node database/seed.js --scale starter",
+    "seed:starter": "node database/seed.js --scale starter",
+    "seed:full": "node database/seed.js --scale full",
+    "validate": "node database/validator.js",
+    "test": "node tests/engine_test.js",
+    "test:all": "node tests/comprehensive_test_suite.js",
+    "test:reproduce": "node tests/reproduction_test.js",
+    "export": "node database/export.js"
+  },
+  "keywords": [
+    "multi-touch-attribution",
+    "marketing-roi",
+    "customer-journey",
+    "data-pipeline",
+    "anomaly-detection",
+    "sqlite",
+    "hackathon"
+  ],
+  "author": "Hackathon Candidate",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

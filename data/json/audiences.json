@@ -1,0 +1,42 @@
+[
+  {
+    "audience_id": "AUD-2026-0001",
+    "name": "Enterprise IT Leaders",
+    "segment": "Enterprise (1000+)",
+    "target_industry": "Information Technology",
+    "estimated_size": 45000,
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "audience_id": "AUD-2026-0002",
+    "name": "Mid-Market Marketing VPs",
+    "segment": "Mid-Market (250-999)",
+    "target_industry": "Software & SaaS",
+    "estimated_size": 32000,
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "audience_id": "AUD-2026-0003",
+    "name": "Fintech Security Officers",
+    "segment": "Financial Services",
+    "target_industry": "Banking & Fintech",
+    "estimated_size": 18000,
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "audience_id": "AUD-2026-0004",
+    "name": "Healthcare Operations Execs",
+    "segment": "Healthcare Systems",
+    "target_industry": "Healthcare",
+    "estimated_size": 28000,
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "audience_id": "AUD-2026-0005",
+    "name": "Retail Omnichannel Directors",
+    "segment": "Retail & eCommerce",
+    "target_industry": "Consumer Goods",
+    "estimated_size": 24000,
+    "created_at": "2026-01-01T00:00:00Z"
+  }
+]
