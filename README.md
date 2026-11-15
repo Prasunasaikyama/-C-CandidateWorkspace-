@@ -50,19 +50,19 @@ node tests/engine_test.js
 # 3. Verify Step 10 Deterministic Reproducibility
 node tests/reproduction_test.js
 
-# 3. Seed Database & Export Files (Starter Scale: 50 campaigns, 5k contacts, 20k touches, 1k opps)
+# 4. Seed Database & Export Files (Starter Scale: 50 campaigns, 5k contacts, 20k touches, 1k opps)
 node database/seed.js --scale starter
 
 # Note: To generate the full target volume (500 campaigns, 50k contacts, 200k touches, 10k opps):
 # node database/seed.js --scale full
 
-# 4. Run Strict 8-Rule Integrity & Acceptance Validator
+# 5. Run Strict 8-Rule Integrity & Acceptance Validator
 node database/validator.js
 
-# 5. Export Database to CSV/JSON Seed Files & Manifest
+# 6. Export Database to CSV/JSON Seed Files & Manifest
 node database/export.js
 
-# 6. Start the REST API & Dashboard Server
+# 7. Start the REST API & Dashboard Server
 node backend/server.js
 ```
 

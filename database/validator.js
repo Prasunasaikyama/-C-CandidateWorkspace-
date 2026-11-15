@@ -59,13 +59,28 @@ class DatabaseValidator {
     console.log(`----------------------------------------------------------------`);
     console.log(`Overall Status: ${allPassed ? 'ALL VALIDATIONS PASSED' : 'VALIDATION ISSUES DETECTED'}\n`);
 
-    return {
+    const summary = {
+      validated_at: new Date().toISOString(),
       passed: allPassed,
       total_tests: this.results.length,
       passed_tests: this.results.filter(r => r.passed).length,
       failed_tests: this.results.filter(r => !r.passed).length,
       results: this.results
     };
+
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const dataDir = path.join(__dirname, '..', 'data');
+      if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
+      const summaryPath = path.join(dataDir, 'validation_summary.json');
+      fs.writeFileSync(summaryPath, JSON.stringify(summary, null, 2), 'utf8');
+      console.log(`[Validator] Saved validation summary to data/validation_summary.json\n`);
+    } catch (err) {
+      console.error(`[Validator] Could not save summary file:`, err.message);
+    }
+
+    return summary;
   }
 
   // 1. Primary Key Uniqueness

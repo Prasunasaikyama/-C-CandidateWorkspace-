@@ -84,7 +84,8 @@ class Server {
   }
 
   async handleRequest(req, res) {
-    const parsedUrl = url.parse(req.url, true);
+    const parsedUrl = new URL(req.url, 'http://' + (req.headers.host || 'localhost:3000'));
+    parsedUrl.query = Object.fromEntries(parsedUrl.searchParams.entries());
     const pathname = parsedUrl.pathname;
     const method = req.method;
 

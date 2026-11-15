@@ -1,0 +1,57 @@
+{
+  "validated_at": "2026-11-15T11:52:14.577Z",
+  "passed": true,
+  "total_tests": 8,
+  "passed_tests": 8,
+  "failed_tests": 0,
+  "results": [
+    {
+      "test": "Primary-Key Uniqueness",
+      "passed": true,
+      "details": "Verified across 14 core tables. 0 duplicate primary keys found.",
+      "errors": []
+    },
+    {
+      "test": "Foreign-Key Referential Integrity",
+      "passed": true,
+      "details": "Verified 8 parent-child relational constraints. 0 orphan keys.",
+      "errors": []
+    },
+    {
+      "test": "Allowed Enums & Domain Constraints",
+      "passed": true,
+      "details": "All categorical fields match strict domain definitions.",
+      "errors": []
+    },
+    {
+      "test": "Date Ordering & Temporal Boundaries",
+      "passed": true,
+      "details": "Start/end dates and session durations are chronologically monotonic.",
+      "errors": []
+    },
+    {
+      "test": "Arithmetic Reconciliation",
+      "passed": true,
+      "details": "Reconciled attributed revenue across all 5 models against Opportunity closed amounts (Variance <= $0.05).",
+      "errors": []
+    },
+    {
+      "test": "Lifecycle State Transitions",
+      "passed": true,
+      "details": "All contacts with Closed-Won opportunities successfully advanced to Customer lifecycle stage.",
+      "errors": []
+    },
+    {
+      "test": "Duplicate Checks (Baseline Invariants)",
+      "passed": true,
+      "details": "No unauthorized duplicates in operational transaction records.",
+      "errors": []
+    },
+    {
+      "test": "Anomaly Ground-Truth Separation",
+      "passed": true,
+      "details": "Ground truth ledger contains 25 labelled anomalies spanning all 5 required edge-case types. Kept strictly isolated in ground_truth_anomalies.",
+      "errors": []
+    }
+  ]
+}

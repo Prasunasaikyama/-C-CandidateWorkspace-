@@ -23,7 +23,7 @@
     "sqlite",
     "hackathon"
   ],
-  "author": "Hackathon Candidate",
+  "author": "Prasuna Sai Kyama <prasunasai672@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">=20.0.0"
